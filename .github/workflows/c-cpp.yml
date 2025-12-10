@@ -14,6 +14,6 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: compile
-      run: gcc multiplicar_test.c -o multiplicar_test
+      run: gcc operacoesmatematicas_test.c -o operacoesmatematicas_test
     - name: run
       run: ./multiplicar_test
